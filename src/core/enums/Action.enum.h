@@ -71,7 +71,7 @@ enum class Action : size_t {
     MANAGE_TOOLBAR,
     CUSTOMIZE_TOOLBAR,
     SHOW_MENUBAR,
-    Rotate,
+    ROTATE,
     ZOOM_IN,
     ZOOM_OUT,
     ZOOM_100,

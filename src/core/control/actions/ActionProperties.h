@@ -396,6 +396,13 @@ struct ActionProperties<Action::SHOW_MENUBAR> {
  * On slower machine this feels more fluent.
  */
 template <>
+struct ActionProperties<Action::ROTATE> {
+    static void callback(GSimpleAction*, GVariant*, Control* ctrl) {
+        g_warning("salam");
+        return;
+    }
+};
+template <>
 struct ActionProperties<Action::ZOOM_IN> {
 #ifdef __APPLE__
     static constexpr const char* accelerators[] = {"<Meta>plus", "<Meta>KP_Add", "<Meta>equal", nullptr};

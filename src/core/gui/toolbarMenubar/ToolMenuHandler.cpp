@@ -328,7 +328,7 @@ void ToolMenuHandler::initToolItems() {
     emplaceCustomItem("CUSTOMIZE_TOOLBAR", Cat::MISC, Action::CUSTOMIZE_TOOLBAR, "toolbars-customize",
                       _("Customize Toolbars"));
 
-    emplaceStockItem("Rotate", Cat::NAVIGATION, Action::ZOOM_OUT, "rotate", _("Rotate page"));
+    emplaceStockItem("ROTATE", Cat::NAVIGATION, Action::ROTATE, "rotate", _("Rotate page"));
     emplaceStockItem("ZOOM_OUT", Cat::NAVIGATION, Action::ZOOM_OUT, "zoom-out", _("Zoom out"));
     emplaceStockItem("ZOOM_IN", Cat::NAVIGATION, Action::ZOOM_IN, "zoom-in", _("Zoom in"));
     emplaceStockItemTgl("ZOOM_FIT", Cat::NAVIGATION, Action::ZOOM_FIT, "zoom-fit-best", _("Zoom fit to screen"));

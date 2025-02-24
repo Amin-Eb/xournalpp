@@ -53,6 +53,7 @@ static const std::map<std::string_view, Action> STATELESS_ACTION_MAP = {
         {"ACTION_TOOL_PEN_FILL_OPACITY"sv, Action::TOOL_PEN_FILL_OPACITY},
         {"ACTION_TOOL_DEFAULT"sv, Action::SELECT_DEFAULT_TOOL},
         {"ACTION_TOOL_HIGHLIGHTER_FILL_OPACITY"sv, Action::TOOL_HIGHLIGHTER_FILL_OPACITY},
+        {"ACTION_ROTATE"sv, Action::ROTATE},
         {"ACTION_ZOOM_IN"sv, Action::ZOOM_IN},
         {"ACTION_ZOOM_OUT"sv, Action::ZOOM_OUT},
         {"ACTION_ZOOM_100"sv, Action::ZOOM_100},

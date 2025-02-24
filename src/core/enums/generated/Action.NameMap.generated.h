@@ -41,6 +41,7 @@ constexpr const char* ACTION_NAMES[] = {  // Action to string conversion map
         "manage-toolbar",
         "customize-toolbar",
         "show-menubar",
+        "rotate",
         "zoom-in",
         "zoom-out",
         "zoom-100",
